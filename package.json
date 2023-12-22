@@ -1,0 +1,28 @@
+{
+  "name": "tech_challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fullstack": "concurrently --kill-others \"npm --prefix ./server run dev\" \"npm --prefix ./client run dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louGastardi/technical_challenge_WD"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "http://localhost:3006/error"
+  },
+  "homepage": "http://localhost:3006",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "jwt-decode": "^4.0.0",
+    "lottie-react": "^2.4.0",
+    "react-jwt": "^1.2.0",
+    "react-router-dom": "^6.20.1"
+  }
+}
